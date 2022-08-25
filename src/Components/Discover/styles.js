@@ -41,7 +41,7 @@ export const Container = styled.div`
         height: 100vh;
         .title {
             h2 {
-                font-size: 25px;
+                font-size: 30px;
             }
         }
         .content_discover {
@@ -57,7 +57,7 @@ export const Container = styled.div`
         height: 100vh;
         .title {
             h2 {
-                font-size: 25px;
+                font-size: 30px;
             }
         }
         .content_discover {
