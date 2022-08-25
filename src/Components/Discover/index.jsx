@@ -7,7 +7,7 @@ import { CardDiscover } from "../CardDiscover"
 
 export const Discover = () => {
     return (
-        <Container>
+        <Container id="discover">
             <div className="title">
                 <h2>Discover The Most Attractive Places</h2>
             </div>

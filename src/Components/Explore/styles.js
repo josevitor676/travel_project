@@ -6,6 +6,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-bottom: 2px solid #ccc;
     .title {
         font-family: 'Readex Pro', sans-serif;
         color: #202020;

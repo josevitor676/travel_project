@@ -5,7 +5,7 @@ import Paisagem2 from "../../Assets/paisagem2.jpg"
 
 export const Information = () => {
     return (
-        <Container>
+        <Container id="information">
             <div className="imagens">
             <CardInformation image={Paisagem1} alt="Paisagem de uma Praia"/>
             <CardInformation image={Paisagem2} alt="Paisagem de uma Praia com um deck de madeira"/>

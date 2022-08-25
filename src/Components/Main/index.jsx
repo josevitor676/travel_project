@@ -5,7 +5,7 @@ import {AiFillFacebook, AiOutlineInstagram} from "react-icons/ai"
 
 export const Main = () => {
     return (
-        <Container >
+        <Container id="home">
             <Header/>
             <Content>
                 <p>Discover your place</p>

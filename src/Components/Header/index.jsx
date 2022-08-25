@@ -1,16 +1,51 @@
 import { Container, Navigation } from "./styles"
-import 'animate.css';
-
+import { Link } from "react-scroll/modules"
 
 export const Header = () => {
     return (
         <Container>
             <h1>Travel</h1>
             <Navigation>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Discover</a></li>
-                <li><a href="#">Place</a></li>
+                <li>
+                <Link 
+                to="home"
+                spy
+                smooth
+                // offset={50}
+                duration={500}>
+                    Home
+                </Link>
+                </li>
+                <li>
+                <Link 
+                to="information"
+                spy
+                smooth
+                // offset={50}
+                duration={500}>
+                    About
+                </Link>
+                </li>
+                <li>
+                <Link 
+                to="discover"
+                spy
+                smooth
+                // offset={50}
+                duration={500}>
+                    Discover
+                </Link>
+                </li>
+                <li>
+                <Link 
+                to="explore"
+                spy
+                smooth
+                // offset={50}
+                duration={500}>
+                    Place
+                </Link>
+                </li>
             </Navigation>
         </Container>
     )

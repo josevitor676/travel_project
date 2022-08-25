@@ -7,7 +7,7 @@ import { CardExplore } from "../CardExplore"
 
 export const Explore = () => {
     return (
-        <Container>
+        <Container id="explore">
             <div className="title">
                 <h2>Explore Beautiful Place</h2>
             </div>
